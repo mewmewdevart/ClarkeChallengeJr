@@ -1,0 +1,95 @@
+/* Import the variables and main settings */
+@import './index.css';
+
+/* Main navigation container */
+.App-navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	width: 290px;
+	height: 100vh;
+	flex-shrink: 0;
+}
+
+/* The logo inside the navigation */
+.App-navbar__logo {
+	width: 220px;
+	height: 127px;
+}
+
+/* Navigation list and list items */
+.App-navbar__list, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	text-align: left;
+}
+
+/* Navigation links */
+.App-navbar__link {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+	width: 257px;
+}
+
+/* Disabled navigation items */
+.App-navbar__item.disabled .App-navbar__link {
+	cursor: not-allowed;
+	color: var(--mediumColor);
+}
+
+/* Active navigation items */
+.App-navbar__item.active .App-navbar__link {
+	position: relative;
+	color: var(--mainColor);
+}
+
+.App-navbar__item.active .App-navbar__link:after {
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 29px;
+	right: 0;
+	background-color: var(--mainColor);
+	border-radius: 25px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 900px) {
+	.App-navbar {
+		width: 100%;
+		min-height: 65vh;
+		text-align: center;
+	}
+
+	.App-navbar__logo {
+		width: 220px;
+		height: 127px;
+	}
+	.App-navbar__list {
+		flex-direction: row;
+		flex-wrap: wrap; 
+	}
+
+	/* Active navigation items */
+	.App-navbar__item.active .App-navbar__link {
+		color: var(--darkColor);
+		background-color: var(--mainColor);
+		height: 29px;
+		padding: 0 5px;
+		border-radius: 3px;
+	}
+
+	.App-navbar__item.active .App-navbar__link:after {
+		background-color: var(--lightColor);
+	}
+}
