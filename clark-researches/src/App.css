@@ -1,6 +1,17 @@
 /* Import the variables and main settings */
 @import './index.css';
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* ============== NAVBAR ============== */
+#myDashboard {
+	display: flex;
+	justify-content: flex-start;
+}
+
 /* Main navigation container */
 .App-navbar {
 	display: flex;
@@ -10,6 +21,7 @@
 	width: 290px;
 	height: 100vh;
 	flex-shrink: 0;
+	background-color: var(--lightColor);
 }
 
 /* The logo inside the navigation */
@@ -19,7 +31,8 @@
 }
 
 /* Navigation list and list items */
-.App-navbar__list, li {
+.App-navbar__list,
+.App-navbar__list li {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -63,18 +76,77 @@
 	border-radius: 25px;
 }
 
+/* ============== SECTION ============== */
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+main nav,
+main section {
+	position: relative;
+	background-color: var(--mainColor);
+	display: block;
+}
+
+.pageMain {
+	padding-left: 20px;
+	font-family: var(--fontStyle);
+	padding-bottom: 20px;
+}
+
+.pageMain__title {
+	color: var(--darkColor);
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: -0.68px;
+}
+
+.pageMain p {
+	color: var(--lightColor);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.form-group--has-search {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.form-group__search-icon-container {
+	position: absolute;
+	z-index: 2;
+	margin: 7px;
+}
+
+.form-control--search {
+	padding-left: 40px;
+}
+
 /* Media query for responsiveness */
 @media screen and (max-width: 900px) {
+	#myDashboard {
+		display: block;
+		justify-content: flex-start;
+	}
+
+	/* Main navigation container */
 	.App-navbar {
 		width: 100%;
 		min-height: 65vh;
 		text-align: center;
 	}
 
+	/* The logo inside the navigation */
 	.App-navbar__logo {
 		width: 220px;
 		height: 127px;
 	}
+
+	/* Navigation list  */
 	.App-navbar__list {
 		flex-direction: row;
 		flex-wrap: wrap; 
@@ -85,7 +157,7 @@
 		color: var(--darkColor);
 		background-color: var(--mainColor);
 		height: 29px;
-		padding: 0 5px;
+		padding: 0;
 		border-radius: 3px;
 	}
 
