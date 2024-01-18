@@ -156,7 +156,7 @@ main section {
 	.App-navbar__item.active .App-navbar__link {
 		color: var(--darkColor);
 		background-color: var(--mainColor);
-		height: 29px;
+		height: auto;
 		padding: 0;
 		border-radius: 3px;
 	}
