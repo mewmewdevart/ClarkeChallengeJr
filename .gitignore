@@ -1,0 +1,12 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+.idea/
+.env
+.venv/
+clark-backend/myenv/
+*.sqlite3
+media/
