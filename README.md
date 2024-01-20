@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-	<a href="clarke-challenge-jr.vercel.app" target="_blank">Acessar solução</a> 
-</p>
-
-<p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mewmewdevart/ClarkeChallengeJr?color=01C976" />
 	<img alt="Main language" src="https://img.shields.io/github/languages/top/mewmewdevart/ClarkeChallengeJr?color=01C976"/>
 	<img alt="License" src="https://img.shields.io/github/license/mewmewdevart/ClarkeChallengeJr?color=01C976"/>
+</p>
+
+<p align="center">
+	<a href="clarke-challenge-jr.vercel.app" target="_blank">Acessar solução</a> 
 </p>
 
 ## Sumário
@@ -36,9 +36,8 @@
 9. [Licença](#licença)
 10. [Contato](#contato)
 
----
 
-## Desafio 🪡
+## Desafio
 
 O desafio propõe o desenvolvimento de uma solução full stack para atender aos requisitos da Clark Energia. A aplicação deve ser capaz de gerenciar informações de fornecedores por meio de uma API e proporcionar uma interface amigável para interação do usuário. Os principais requisitos incluem:
 
@@ -47,20 +46,17 @@ O desafio propõe o desenvolvimento de uma solução full stack para atender aos
 - Cada fornecedor deve ter informações como nome, logo, estado de origem, custo por kWh, limite mínimo de kWh, número total de clientes e avaliação média dos clientes.
 - Um fornecedor só pode atender um cliente se o consumo mensal deste for maior do que o limite mínimo de kWh do fornecedor.
 
----
 
 ## Curiosidade
 
 Desenvolvi a interface simulada do Marketplace utilizando o Figma, o que auxiliou na estruturação do Front-End inicialmente com valores aleatórios.  Caso queira acessar o protótipo do figma : <a href="https://www.figma.com/file/0EY8zil2O90dwPKULIUQ2l/Clarke-Energia?type=design&node-id=0-1&mode=design&t=eG9erOGjwALgy0r4-0" target="_blank">Figma - Prototipo do Desafio : Clarke Energia</a>
 
----
 
 ## Estrutura do Projeto
 
 - `clark-backend/`: Pasta que contém o backend da aplicação, uma API desenvolvida usando Django com dados fictícios.
 - `clark-researches/`: Pasta que contém o frontend do projeto, desenvolvido utilizando React.
 
----
 
 ## Implementações
 
@@ -71,7 +67,6 @@ Desenvolvi a interface simulada do Marketplace utilizando o Figma, o que auxilio
 - [ ] Testes automatizados no backend.
 - [ ] Configuração dos arquivos para execução da aplicação no Docker.
 
----
 
 ## Instruções
 
@@ -138,7 +133,6 @@ $ npm start
 
 **Observação:** Tanto o backend quanto o frontend devem estar em execução em terminais diferentes para funcionarem corretamente ao rodar o projeto localmente.
 
----
 
 ## Resultado
 
@@ -162,7 +156,6 @@ Página de adição e edição do JSON da aplicação com os campos ID, nome da 
 
 ![Screenshot Backend Adição/Edição](https://github.com/mewmewdevart/ClarkeChallengeJr/assets/50052600/1ac1c124-3b09-4e8b-928c-961b56e14f16)
 
----
 
 ## Tecnologias
 
@@ -172,7 +165,6 @@ Página de adição e edição do JSON da aplicação com os campos ID, nome da 
 - [Node.js](https://nodejs.org/en): Plataforma para instalação de pacotes necessários para o frontend (React, Material UI, Bootstrap, etc.).
 - [Python](https://www.python.org/downloads/): Python para importação de pacotes no backend.
 
----
 
 ## Referências
 
@@ -181,13 +173,11 @@ Página de adição e edição do JSON da aplicação com os campos ID, nome da 
 - [Figma Community](https://www.figma.com/community): Inspiração na prototipação do projeto.
 - Fóruns e blogs da internet, como Alura, Stack Overflow e Geeks for Geeks, para sanar dúvidas relacionadas à linguagem.
 
----
 
-## 📜 Licença
+## Licença
 
 Este projeto é licenciado nos termos do arquivo [LICENÇA](LICENSE). Consulte o arquivo para obter mais detalhes.
 
----
 
 ## Contato
 
