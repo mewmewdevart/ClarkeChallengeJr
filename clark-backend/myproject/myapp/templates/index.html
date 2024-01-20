@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API da Clark Energia - Fornecedores</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2, p {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo ao DB da Clark Energia - Fornecedores</h1>
+    <p>Explore a API da Clark Energia para obter informações sobre fornecedores de energia.</p>
+
+    <h2>Rotas Disponíveis:</h2>
+    <ul>
+        <li><a href="{% url 'home' %}">Página Inicial</a></li>
+        <li><a href="{% url 'supplier-list' %}">Lista de Fornecedores</a> - Visualize a lista de fornecedores</li>
+        <li>Para excluir um fornecedor específico, acesse o endpoint do fornecedor utilizando o método DELETE.</li>
+    </ul>
+</body>
+</html>
