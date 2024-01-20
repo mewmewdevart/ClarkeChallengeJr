@@ -123,6 +123,8 @@ Pagina de adição e edição do json da aplicação com os campos id, nome da e
 - [VS CODE](https://code.visualstudio.com/) | Ambiente de desenvolvimento integrado para escrever, ler e executar código do projeto com mais eficiência.
 - [Git Bash](https://git-scm.com/downloads) | GitBash para realizar os commits.
 - [Figma](https://www.figma.com/) | Figma para desenvolver alguns elementos da interface.
+- [NodeJS](https://nodejs.org/en) | Instalar os pacotes necessarios para o front end (react, material ui, bootstrap etc)
+- [Python](https://www.python.org/downloads/) | Python para fazer as importações de pacotes no backend
 
 ## Referencias
 - [Markdown](https://www.markdownguide.org/basic-syntax/) | Documentação de como utilizar o Markdown.
