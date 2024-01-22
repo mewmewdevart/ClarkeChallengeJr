@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-	<a href="clarke-challenge-jr.vercel.app" target="_blank">Acessar solução</a> 
+	<a href="https://clarke-challenge-jr.vercel.app/" target="_blank">Acessar solução</a> 
 </p>
 
 ## Sumário
